@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC4311B62114837100C2DE35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4311B52114837100C2DE35 /* AppDelegate.swift */; };
+		DC4311B82114837100C2DE35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4311B72114837100C2DE35 /* ViewController.swift */; };
+		DC4311BB2114837100C2DE35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4311B92114837100C2DE35 /* Main.storyboard */; };
+		DC4311BD2114837300C2DE35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4311BC2114837300C2DE35 /* Assets.xcassets */; };
+		DC4311C02114837300C2DE35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4311BE2114837300C2DE35 /* LaunchScreen.storyboard */; };
+		DC4311CB2114837300C2DE35 /* RecordVideoWhileMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4311CA2114837300C2DE35 /* RecordVideoWhileMusicTests.swift */; };
+		DC4311D62114837300C2DE35 /* RecordVideoWhileMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4311D52114837300C2DE35 /* RecordVideoWhileMusicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC4311C72114837300C2DE35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4311AA2114837000C2DE35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC4311B12114837000C2DE35;
+			remoteInfo = RecordVideoWhileMusic;
+		};
+		DC4311D22114837300C2DE35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4311AA2114837000C2DE35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC4311B12114837000C2DE35;
+			remoteInfo = RecordVideoWhileMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC4311B22114837000C2DE35 /* RecordVideoWhileMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordVideoWhileMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4311B52114837100C2DE35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC4311B72114837100C2DE35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC4311BA2114837100C2DE35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC4311BC2114837300C2DE35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC4311BF2114837300C2DE35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC4311C12114837300C2DE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4311C62114837300C2DE35 /* RecordVideoWhileMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordVideoWhileMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4311CA2114837300C2DE35 /* RecordVideoWhileMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVideoWhileMusicTests.swift; sourceTree = "<group>"; };
+		DC4311CC2114837300C2DE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4311D12114837300C2DE35 /* RecordVideoWhileMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordVideoWhileMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4311D52114837300C2DE35 /* RecordVideoWhileMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVideoWhileMusicUITests.swift; sourceTree = "<group>"; };
+		DC4311D72114837300C2DE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC4311AF2114837000C2DE35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4311C32114837300C2DE35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4311CE2114837300C2DE35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC4311A92114837000C2DE35 = {
+			isa = PBXGroup;
+			children = (
+				DC4311B42114837000C2DE35 /* RecordVideoWhileMusic */,
+				DC4311C92114837300C2DE35 /* RecordVideoWhileMusicTests */,
+				DC4311D42114837300C2DE35 /* RecordVideoWhileMusicUITests */,
+				DC4311B32114837000C2DE35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC4311B32114837000C2DE35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC4311B22114837000C2DE35 /* RecordVideoWhileMusic.app */,
+				DC4311C62114837300C2DE35 /* RecordVideoWhileMusicTests.xctest */,
+				DC4311D12114837300C2DE35 /* RecordVideoWhileMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC4311B42114837000C2DE35 /* RecordVideoWhileMusic */ = {
+			isa = PBXGroup;
+			children = (
+				DC4311B52114837100C2DE35 /* AppDelegate.swift */,
+				DC4311B72114837100C2DE35 /* ViewController.swift */,
+				DC4311B92114837100C2DE35 /* Main.storyboard */,
+				DC4311BC2114837300C2DE35 /* Assets.xcassets */,
+				DC4311BE2114837300C2DE35 /* LaunchScreen.storyboard */,
+				DC4311C12114837300C2DE35 /* Info.plist */,
+			);
+			path = RecordVideoWhileMusic;
+			sourceTree = "<group>";
+		};
+		DC4311C92114837300C2DE35 /* RecordVideoWhileMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC4311CA2114837300C2DE35 /* RecordVideoWhileMusicTests.swift */,
+				DC4311CC2114837300C2DE35 /* Info.plist */,
+			);
+			path = RecordVideoWhileMusicTests;
+			sourceTree = "<group>";
+		};
+		DC4311D42114837300C2DE35 /* RecordVideoWhileMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC4311D52114837300C2DE35 /* RecordVideoWhileMusicUITests.swift */,
+				DC4311D72114837300C2DE35 /* Info.plist */,
+			);
+			path = RecordVideoWhileMusicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC4311B12114837000C2DE35 /* RecordVideoWhileMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4311DA2114837300C2DE35 /* Build configuration list for PBXNativeTarget "RecordVideoWhileMusic" */;
+			buildPhases = (
+				DC4311AE2114837000C2DE35 /* Sources */,
+				DC4311AF2114837000C2DE35 /* Frameworks */,
+				DC4311B02114837000C2DE35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecordVideoWhileMusic;
+			productName = RecordVideoWhileMusic;
+			productReference = DC4311B22114837000C2DE35 /* RecordVideoWhileMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC4311C52114837300C2DE35 /* RecordVideoWhileMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4311DD2114837400C2DE35 /* Build configuration list for PBXNativeTarget "RecordVideoWhileMusicTests" */;
+			buildPhases = (
+				DC4311C22114837300C2DE35 /* Sources */,
+				DC4311C32114837300C2DE35 /* Frameworks */,
+				DC4311C42114837300C2DE35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC4311C82114837300C2DE35 /* PBXTargetDependency */,
+			);
+			name = RecordVideoWhileMusicTests;
+			productName = RecordVideoWhileMusicTests;
+			productReference = DC4311C62114837300C2DE35 /* RecordVideoWhileMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC4311D02114837300C2DE35 /* RecordVideoWhileMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4311E02114837400C2DE35 /* Build configuration list for PBXNativeTarget "RecordVideoWhileMusicUITests" */;
+			buildPhases = (
+				DC4311CD2114837300C2DE35 /* Sources */,
+				DC4311CE2114837300C2DE35 /* Frameworks */,
+				DC4311CF2114837300C2DE35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC4311D32114837300C2DE35 /* PBXTargetDependency */,
+			);
+			name = RecordVideoWhileMusicUITests;
+			productName = RecordVideoWhileMusicUITests;
+			productReference = DC4311D12114837300C2DE35 /* RecordVideoWhileMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC4311AA2114837000C2DE35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Arun Jose";
+				TargetAttributes = {
+					DC4311B12114837000C2DE35 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					DC4311C52114837300C2DE35 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = DC4311B12114837000C2DE35;
+					};
+					DC4311D02114837300C2DE35 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = DC4311B12114837000C2DE35;
+					};
+				};
+			};
+			buildConfigurationList = DC4311AD2114837000C2DE35 /* Build configuration list for PBXProject "RecordVideoWhileMusic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC4311A92114837000C2DE35;
+			productRefGroup = DC4311B32114837000C2DE35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC4311B12114837000C2DE35 /* RecordVideoWhileMusic */,
+				DC4311C52114837300C2DE35 /* RecordVideoWhileMusicTests */,
+				DC4311D02114837300C2DE35 /* RecordVideoWhileMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC4311B02114837000C2DE35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4311C02114837300C2DE35 /* LaunchScreen.storyboard in Resources */,
+				DC4311BD2114837300C2DE35 /* Assets.xcassets in Resources */,
+				DC4311BB2114837100C2DE35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4311C42114837300C2DE35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4311CF2114837300C2DE35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC4311AE2114837000C2DE35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4311B82114837100C2DE35 /* ViewController.swift in Sources */,
+				DC4311B62114837100C2DE35 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4311C22114837300C2DE35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4311CB2114837300C2DE35 /* RecordVideoWhileMusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4311CD2114837300C2DE35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4311D62114837300C2DE35 /* RecordVideoWhileMusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC4311C82114837300C2DE35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC4311B12114837000C2DE35 /* RecordVideoWhileMusic */;
+			targetProxy = DC4311C72114837300C2DE35 /* PBXContainerItemProxy */;
+		};
+		DC4311D32114837300C2DE35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC4311B12114837000C2DE35 /* RecordVideoWhileMusic */;
+			targetProxy = DC4311D22114837300C2DE35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC4311B92114837100C2DE35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4311BA2114837100C2DE35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC4311BE2114837300C2DE35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4311BF2114837300C2DE35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC4311D82114837300C2DE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC4311D92114837300C2DE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC4311DB2114837300C2DE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5DYFD9UMYF;
+				INFOPLIST_FILE = RecordVideoWhileMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arun.RecordVideoWhileMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "74f6b6ce-e9eb-4468-9a1f-cea0f005c5d5";
+				PROVISIONING_PROFILE_SPECIFIER = QB_Generic_KTY_V19;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC4311DC2114837300C2DE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RecordVideoWhileMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arun.RecordVideoWhileMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC4311DE2114837400C2DE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RecordVideoWhileMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arun.RecordVideoWhileMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordVideoWhileMusic.app/RecordVideoWhileMusic";
+			};
+			name = Debug;
+		};
+		DC4311DF2114837400C2DE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RecordVideoWhileMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arun.RecordVideoWhileMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordVideoWhileMusic.app/RecordVideoWhileMusic";
+			};
+			name = Release;
+		};
+		DC4311E12114837400C2DE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RecordVideoWhileMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arun.RecordVideoWhileMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecordVideoWhileMusic;
+			};
+			name = Debug;
+		};
+		DC4311E22114837400C2DE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RecordVideoWhileMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arun.RecordVideoWhileMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecordVideoWhileMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC4311AD2114837000C2DE35 /* Build configuration list for PBXProject "RecordVideoWhileMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4311D82114837300C2DE35 /* Debug */,
+				DC4311D92114837300C2DE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4311DA2114837300C2DE35 /* Build configuration list for PBXNativeTarget "RecordVideoWhileMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4311DB2114837300C2DE35 /* Debug */,
+				DC4311DC2114837300C2DE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4311DD2114837400C2DE35 /* Build configuration list for PBXNativeTarget "RecordVideoWhileMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4311DE2114837400C2DE35 /* Debug */,
+				DC4311DF2114837400C2DE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4311E02114837400C2DE35 /* Build configuration list for PBXNativeTarget "RecordVideoWhileMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4311E12114837400C2DE35 /* Debug */,
+				DC4311E22114837400C2DE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC4311AA2114837000C2DE35 /* Project object */;
+}
